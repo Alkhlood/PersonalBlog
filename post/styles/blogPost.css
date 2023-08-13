@@ -1,0 +1,134 @@
+
+.container{
+  display: grid;
+  margin: 2%;
+  padding: 0%;
+  border: 1px solid rgb(254, 254, 254);
+  background: #bbc4df;
+  display:flex;
+    flex-direction: column; 
+    padding: 3%;
+    border: 1px solid rgb(241, 241, 242);
+    gap: 2px;
+ } 
+  
+
+    .header{
+        height: 60px;
+        margin: 10px;
+        border: 2px solid rgb(231, 254, 254);
+        background-color: #2d3b62;
+        padding: 10px;
+        overflow: hidden;
+    }
+    
+    .Author-info{
+        height: 40vh; 
+        margin-top: 40px;
+        border: 2px solid rgb(231, 254, 254); 
+        background-color: #818cac;
+        
+    }
+     .nestedGrid{
+        display: block;
+     }
+
+     .nestedGrid h1{
+        text-align: center;
+    margin: 20px 0;
+    color: #000000;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: underline;
+ }
+
+ .nestedGrid h2{
+    text-align: center;
+    margin: 20px 0;
+    color: #000000;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.nestedGrid h1{
+    text-align: center;
+    margin: 20px 0;
+    color: #000000;
+    font-size: 20px;
+    font-style:normal;
+    font-weight: bold;
+}
+.Author-info article{
+    text-align:center;
+    margin-bottom: 60px;
+    /* padding: 20px; */
+   color: #070707;
+   font-size: 17px;
+   font-family:'Times New Roman', Times, serif; 
+   font-style: oblique;
+   font-weight: bold;
+}
+  
+
+     
+    
+    
+
+    
+
+       .image-prof{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    .project{
+        height: 600px;
+        margin-top: 50px;
+        border: 2px solid rgb(231, 254, 254);
+        background-color: #818cac;
+    }
+    .project article{
+    text-align:start;
+     margin-top: 50px;
+     padding: 10px;
+    color: #070707;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif; 
+    font-style: oblique;
+    font-weight: bold;
+    }
+    .figure{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .figcaption{
+        display: flex;
+        justify-content: center;
+        text-align: end;
+
+    
+    
+    }
+    .social-sharing{
+        height: 70px;
+        margin: 10px;
+        border: 2px solid rgb(231, 254, 254);
+        float: left;
+        background-color: #818cac;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20%;
+    }
+
+    .footer{
+        height: 60px;
+        margin: 10px;
+        border: 2px solid rgb(231, 254, 254);
+        background-color: #818cac;
+    }

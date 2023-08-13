@@ -1,0 +1,23 @@
+  .header a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .header a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+   
+  .image7{
+    float: right;
+  }
+  .search{
+    display: flex;
+    justify-content: center;
+  }
+
+     

@@ -1,0 +1,12 @@
+
+@media screen and (max-width: 768px) {
+    .header, .card, .nestedGrid {   
+      flex-direction: column;
+    }
+  }
+    @media screen and (min-width: 300px) {
+        .header, .card, .nestedGrid {   
+          flex-direction: column;
+        }
+    
+      }
